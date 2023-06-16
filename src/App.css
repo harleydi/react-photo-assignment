@@ -1,0 +1,43 @@
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+.photo-sec {
+  width: 50vw;
+}
+
+.photo-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  width: 50vw;
+  justify-content: center;
+}
+
+.likes-container {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.likes {
+  display: flex;
+  flex-direction: column;
+}
+
+.like-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dislikes {
+  display: flex;
+  flex-direction: column;
+}
+
+.dislike-container {
+  display: flex;
+  flex-wrap: wrap;
+}
